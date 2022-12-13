@@ -1,0 +1,135 @@
+@charset   "UTF-8";
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+--cor01: #3F40E8;
+--cor02: #4171F2;
+--cor03: #4696DB;
+--cor04: #41CEF2;
+--cor05: #3FE8DD;
+}
+
+body{
+    background-color: var(--cor02);
+    margin: 0px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.350);
+
+}
+div.video{
+    background-color: var(--cor01);
+    margin:  0px -15px;
+    padding-bottom: 50%;
+    position: relative;
+    
+}
+div iframe{
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 6%;
+    right: 6%;
+    height: 90%;
+    width: 86%;
+
+}   
+img{
+    width: 100%;
+}
+.img-pq {
+    width: 50%;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    
+}
+header{
+    
+    background-color: ;
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor01));
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.450);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 6px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    min-height: 160px;
+    padding-bottom: 10px;
+}
+header > h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    margin-top: 0px;
+    padding-top: 30px;
+    color: var(--cor01);
+    text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.700);
+    
+}
+
+header p {
+    max-width: 400px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+nav{
+    text-align: left;
+    padding-left: 30px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+
+    transition: 0.2s;
+    padding: 10px 15px;
+    border-radius: 5px 5px;
+}
+nav > a:hover{
+    background-color: var(--cor02);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.200);
+    text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.400);
+}
+
+main{
+    background-color: white;
+    align-content: auto;
+    width: auto;
+    margin: 0px 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 1px 1px 6px 6px rgba(0, 0, 0, 0.2);
+    
+}
+h1{
+    font-family: droid;
+    color: var(--cor01);
+}
+article > h1{
+    margin-top: 0px;
+    padding: 20px;
+}
+h2{
+    background-image: linear-gradient(0.25turn, var(--cor04) , transparent);
+    font-family: droid;
+    color: var(--cor01);
+    margin-left: 20px;
+    font-size: 20px;
+}
+main p{
+    text-indent: 30px;
+    line-height: 1.5em;
+    text-align: justify;
+    padding: 10px 20px;
+    margin: 0px;
+}
+strong{
+    color: var(--cor03);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.350);
+    
+}
+
+.lista ul{
+    columns: 2;
+}
